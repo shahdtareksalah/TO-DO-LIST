@@ -11,8 +11,8 @@
    min-height: 100vh;
 }
 .todo_app{
-    width: 550px;
-    height: 300px;
+   width: 550px;
+    min-height: 300px;
     border:2px solid black;
         background-color: #fff;
     border-radius: 10%;
@@ -63,7 +63,7 @@ button:hover{
 ul li{
     list-style: none;
     font-size: 17px;
-    padding: 12px 8px 12px 50px;
+    padding: 10px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
     position: relative; 
@@ -71,14 +71,14 @@ ul li{
 ul li::before{
 content:'';
 position: absolute;
-width: 10px;
-height: 10px;
+width: 15px;
+height: 15px;
 border-radius: 50%;
 background-image:url(./images/unchecked.png);
 background-repeat: no-repeat;
 background-size: cover;
-top:8px;
-left: 10px;
+top:13px;
+left: 16px;
 }
 ul li.checked{
     color: #555;
